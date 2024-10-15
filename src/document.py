@@ -1,9 +1,11 @@
+from interfaces import IDocument
+from interfaces import ISnapshot
+
 from dataclasses import dataclass
-from interface import ISnapshot
 
 
 @dataclass
-class Document:
+class Document(IDocument):
 
     _content: str = ""
 

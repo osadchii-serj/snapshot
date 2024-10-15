@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from interface import ISnapshot
+from interfaces import ISnapshot
 
 
 @dataclass
