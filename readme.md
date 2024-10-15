@@ -3,7 +3,7 @@
 >Реализация паттерна - "Снимок" - учебный репозиторий.
 
 
-![Image alt](https://github.com/osadchii-serj/snapshot/raw/main/svg/pattern_napshot.svg)
+![Image alt](https://github.com/osadchii-serj/snapshot/raw/main/svg/pattern_snapshot.svg)
 
 ***
 
