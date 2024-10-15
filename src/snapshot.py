@@ -1,8 +1,9 @@
 from dataclasses import dataclass
+from interface import ISnapshot
 
 
 @dataclass
-class Snapshot:
+class Snapshot(ISnapshot):
 
     _state: object
 
