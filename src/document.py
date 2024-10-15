@@ -1,5 +1,6 @@
 from interfaces import IDocument
 from interfaces import ISnapshot
+from snapshot import Snapshot
 
 from dataclasses import dataclass
 
@@ -16,7 +17,7 @@ class Document(IDocument):
         return self._content
 
     def save(self):
-        return ISnapshot(self._content)
+        return Snapshot(self._content)
 
     def restore(self, snapshot: ISnapshot):
         self._content = snapshot.get_state()
